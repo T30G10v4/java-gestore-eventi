@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class PastDateException {
-}
+public class PastDateException extends RuntimeException {
+
+    public PastDateException(String message) {
+        super(message);
+    }
+
+    }

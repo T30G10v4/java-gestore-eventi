@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class NoPrenotationsException {
+public class NoPrenotationsException extends RuntimeException {
+    public NoPrenotationsException(String message) {
+        super(message);
+    }
+
 }
